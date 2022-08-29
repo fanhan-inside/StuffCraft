@@ -1,0 +1,1894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;newNoteToolStripButton.Name" xml:space="preserve">
+    <value>newNoteToolStripButton</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="deleteCaseTreeMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAldJREFUOE+Fk1tI
+        VHEQxmeJ3dQotchcLyVZmmxbtprXNBUX0rXSkmJJscIusBpJ61tgVJR0I4hAKQJFDepBCJZeepfAHoND
+        PtXDRvRgPsfya/7n6Gab4MBwOJz5vvnmmzkuSYkKkeoakUh9fl5rZmG+VxLIr29fv8/9+PlhTuT5J5GP
+        qZiVd/djkdn5vh4S717A5DA86IY7JzS7SIyEmW8+jKlRgDuVxP1U5PPS7BSM90O0HIYOQsQPl/fB+WI4
+        txN6iljqa8DU/kNiWG3w/XYYroQbARhQgqtlcKEEenfDmQLoyoVQFksdJStKRMzMRjbjlxzwkIIHV4OL
+        4GwhdHqhYxsEs6Alg/m92RisDIhM2jNHFWQ6D+6HKyr74h6VvUs75yt4u3bOVvBmaE6Heg+J2nQiipXp
+        PG+cCTXsup+FUDFWdxVWZwDreDlWyI91zIcVLMNqKcVqKmXBl4G2tnMmzRWXWE0VjJ5mMXKE36wfpmax
+        YQcEhNgWQWJVFTDSBo9610evVPQfhXLhvSGYyc2Jmz0TVpPGovDmCbx+CFOjMHEPXt2Fl7f12y01WvOm
+        Gl6mI1QKbz0SF2OEORLC6vSpHGhXl4OboHEj1G1w5j2g6VtOvz5VvslrxkR7jc3VjuMndbbQVmjNhCZ1
+        u9atnVxw6C/IBivplwJx1mjCPiS9MNoUGNRsVHCdRwvXACtBQud/5px0MpxT1guzO9dpZyN9jc4GPOZK
+        OeVlGudn0gtLVKcld20TqWFGupG93Pm/nykpxcxlrnPa44qbPZtVGbeNYcmZV0n/A3MTANp434bBAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="editNoteListMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="editNoteListMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;menuList.Name" xml:space="preserve">
+    <value>menuList</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mainText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;imageList16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="exportCaseMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="deleteCaseToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;renameCaseMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Panel1.Name" xml:space="preserve">
+    <value>splitUD.Panel1</value>
+  </data>
+  <data name="&gt;&gt;chUpdated.Name" xml:space="preserve">
+    <value>chUpdated</value>
+  </data>
+  <data name="exportNoteMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAthJREFUOE+dkl1I
+        01EYxgfddFEXiaFEF115kRcG3UVCFyIoFIoYEhRZWqJZM7KYMHVmSnPTzK1N06zUpiwL/Ha6VJTVxHTL
+        ff03N/fh5jS1OT82N/XpTLMZ1Y0vPHBeznl+5+E9h6ZNjujAQNNyVFhYJO0g5bpwyFnBLYVzaR1nIo9H
+        HYRxIiT81JKhOgSwnfe0vmvXtYjHqaamz1R9/QhVWztICYUDFI/XT1VW9lLl3B6Kze6iCgo79ImJJS17
+        F4bOMGhmiGmA+Rzgd+B/tf1r402LA3kFg/id+HIyvcrOCUcAsk2dxea6ZefoNnH4toANH7C2AawSeUj/
+        mKvHnfuSICAl5SHf4fBByTiyA9lSRcLvNsFPADtmooDZtU7Wm0BRGYVM+j5AUhKdb3UCg0NmWJ6SebQS
+        iOY0vC4TPH5ghZjdxPyDyE16ZqkOt7N7gwkSErL5GoMXstE5bPl8MJce24WoI7CyaMKyFyAPhcU1koLA
+        8oq1SMvqDgIuXcziyyeW0C3RwOffgMfjgaMidBcycRIu2wjcJHrAvEwSPGJpcD2jJwiIi8vky0YXIHyl
+        QjFbBgZrCHn5/VDmHQbaj2LT1gxm4SiyHnxBboEWuUUWXEvv+hMwNulDo3gWIrESa6vzWFh0wqBVYbou
+        FfYOAfxODYzGWaTnfAM934yr+wGxsRl82ZgXDeJ5tHVaUMJVgM4YxtDwBL4qddD0vcesuARKBYWbd5XI
+        ybf8CYiJufViSO5FbdMcWtuMKOaoUcg2Qq2xw2p1QKuzYEQ2jpe1jUjLUf0NiI5Oy235YEf12zmIPxrI
+        DBTIYWqgUFoIwImpKTt0Oismxg248a8EgS8ZH896zeEZ0NCsh9nyHSq1DTO2eUxPO6DXW6FWmyCXk+ln
+        T+Ie04orqR3BIe796fLyTlYVT9pcV/dJVFMjFQmEUpFQ0CcSCCREfaLnPImIUyEVcZ8NNJdxe5/8BI6b
+        ZHqnRA/QAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAAsRJREFUOE+NkV1Ik2EUx99NaUXf0kVfZGgXEppb5ZV6I9aFJZSiooQwyNESodXF1iaZ
+        4kpNluTWZn6gW2EK3mQpbF4oNssolFzN2oJ9JC5YSq5thnP/zvsyw8LAAz/O+7zP8/8/5zmHx1DU1dXx
+        CwoKcp1O57lAICCMi4tLFAgEu6LRKLOysrK0sLDw1W6326ampkYoWxYXF4Mki7Baxu12p/f399uUSiUU
+        CgVaW1sxMDCAyclJ0GHMz88jGAyCjaWlJeh0OkdycvJ5ku4geEx9fb0tKysL5eXlkMvl0Gg06O3thdVq
+        xczMDOgC+P1+LC8vcyZs1NbWekmczZk0NjaOCoVC5OfnQyqVQq1Ww2g0Ynx8HDabDXNzc9zN60Mikbwn
+        8XXiMFNVVZXR0dHxvbKyEiUlJaA19Ho9Z+ByuRAKhTht2PkJE2cz8FSUutqiVFpIrCQS2TZsE4vFFT6f
+        L+L1ejE8PIyenh50dXXBYDCgubkZZssIPrTUAfIczOal4S6fZyfdDa4CrhEMkyCTyTThcBjUcTgcDq58
+        s9kM68RLmEY7uCqCDxRwZh/FLT7zljSKtQpYEz5xiJozxJZM48T09DSHzn4TDZEiPB57hCHLO6jKynzb
+        eUw3nZcSB7hRxiI+KSkpTavVzrJj83g8eObqREOoFHpchvRzDk5VpwT2JOw10fnbRAb7/PUG7PdWkUiU
+        ZzKZomNfXqDWX4h2XIHceQEn2xJ/8Y8wrLiJyCF2x57/lwfbj51v7NZIjacYnbiKancRMo0pq/HHeU9o
+        7z6RR+zbSLzmxO9+dS9igAR3/GU4M3ACgsy4PtrUEheJ/bGe/Vv9nzXv9WD7j+LB08h9norS9sIQ7bCl
+        XyLYscX/V7m2oZBd+9hUXfOtre/hT5VKNUn/m4n0TYljJgcpVxDqGGLK7L9NhyAmOEaZhZ33lo3UvwG1
+        nJIpLAPCxwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Name" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="&gt;&gt;exportCaseMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="deleteCaseMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAaZJREFUOE+NU0tL
+        AmEUvaJFiBo9ULKFIIlWoBYa4iYwqIxoUcsiCqNVIVTbdkWboGXLwJ/gok0IwfygEf/A6Z5vdBofQw1c
+        mNd53O+eK2mR2SeRr3ZlC61Ewj4XuRKfi99a0YjdzqRADLHCm973J/B2C5wVYc0JrkXuRzn4zirlgMsS
+        cLiMXn3FkAiVDTgrQEGrJGMkBlxeA/bjQF7/KWpVg2jHAhDaprIBb/arT6KWmywXPPinEgL2omgFxRb2
+        RdtUdglIpM+dmFZp3VH2gnejsJam4Z6XsTiJxBAFHMu8p3IfPHZOviQb/wAPTpz90rbbihe8E0EnMUXb
+        Tb8x8zyapmfa9oJrER3dAjrJGX+CoVF5eyb4YAE4TgIXaVjp6HhOhsDe01bbVDbg0xTQyAJ3Grbc/C+J
+        GWN5deKo2DNtU9mAb/LAQxl43oZViDtjZLbR0JdM2Mio3CCpbSob8GNVCWrA+xFa4ZAtXAxm28zaZ86m
+        RbVNZQN+rQMfJ2hnFuEsky4Gs814MmG+y6S2qUxw76XuLJO7zroYmu3un+scDnWpPFjnH3uKkQ60MMq9
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="newNoteToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitLR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="newNoteListMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAg9JREFUOE91kt9r
+        01AcxTMEH3zzX9nTwH/GP0L0Sfbgswx9EC0yhCFiYcp0ggjqHOjApa6zpu16u46uP9e1aZsfTdKk93hu
+        8EezdBe+uaXJ+ZxzbrKkcRVbznLP0fTr164saYAmpdQw466Bu9Qcf6Z9/yH279xcucHHQ6VJrF1jUA7C
+        GdJLwpqGaLg+mgMfdzM5g8KrKcDnnwO4fpTQK5zkeNEM3ckUeyUTe33g1trXNEQBJpcAIskUQQT1jDUJ
+        YZgSt+9tG9ls9n+SGOCFiQTKXaWI+MPnZacwiCE7BvfCGR6sH5T/VYkrkD6/JNUhxQH/VresQKLjRqiN
+        p9CbNlbX9pEEeNNYHzvzos5UtXIopgajAOh7Ei1nhl/tSRrg8KBYN47Mg4fi2RRZPjD0gPMJ0ON0XKDS
+        9dMA2w1iV4+uKrJNwJAAk4BzAjoUtyluOIDRXgAYO0EsTrlS1KaoZQOnFnDCyTcWAExmvcz1lIA6ATWK
+        xRjQ6wsA/bGPoYqrul5wrVF0PGJ3TmkIfDtZAOiN/Ljr2Z+u864VAo4oLg4Afg7YFQsAXQLUCf/tOu9a
+        pKthAocU5zkfjy4APuU65Z4dos0ETSaoE3TM3lX2LtO9RPcCIXlCDjgfKmHyNX7RxXJmIydfvq/ixTuB
+        59sCG28Fnr0RWN8SePpaIPNK4PGmwKPNKlYf5uT9J/qh+hJ/A4VTD122PEA5AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="exportNoteToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="mainTree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;splitUD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;newCaseTreeMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newCaseMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAT9JREFUOE9jYBg0
+        4MxMk/+nZxj/PznN8P/xKfr/SXIYSDM6ONSvRZwhCM0zgWYg4///93ap/t/VrvR/e4v8/61Nsv83N0r/
+        31AngWowyNn/v0/8//9LHybGcNf//+tqxFANAPn5/+vW//+fNf4/OkkXKz7Qq/F/T6fK/x2tCv+3NMqA
+        XQLC4HACBdj/B9VgjUQBoEUgsLiQG2IAWOOV/P+QsEAPB0z+j6MJYHUL8jggBoBC+/+ZdHAUgg0AhQce
+        /H5POFjdvBw2iAEg/4EMgHgBaAAoPPDgZ5v9wOrmZLFADABFFciA/T3qEAOA4YEP31npAlY3K4MJYgAo
+        nkEGgEIYbAAwPPDhywuswepmpjMiohOWSMg2AOQSWCoDJZTVlcL/V5QJ/F9azAuOLlCIgwIN5G+Q00G2
+        g8KMpPyCSzEAl88FiK3YiSsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="exportNoteListMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteNoteToolStripButton.Name" xml:space="preserve">
+    <value>deleteNoteToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;noteToolStripMenuItem.Name" xml:space="preserve">
+    <value>noteToolStripMenuItem</value>
+  </data>
+  <data name="exportCaseTreeMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqlJREFUOE91k9tO
+        GlEUhu1de9EXaPoMvkWbqjdN47VJ38BrE4wp9RjbNGlNtdW2iQ3R1gJSBFQQRM4iZwaYUQQGOcwoaKBI
+        Bfy7BpOmKt3Jmuy9s/9v/WvN3ne6aMzPq+8HAjWmu/vBw2bjsqvVgrR9a7R36cPzpebde9WncvnztfYh
+        u53tn5424CBdhtbEQWlgodnch86chGH7EBs7Kayuc9DTOnFQgjeUx8jI6snfDBYL82xoSAmbJ4OPCyY8
+        ejyE3t5h9FH09sjQ80QGs4OHmiC+cJ7OHUE6/w8g0QZYHCmo1yJ4886It7NbmJnbwvsPFswtbGNZE8KK
+        NgaGPYbTm+sMMBNAqYvj01IQiysRKNQMvmni0BqTmFt0QEtlMewJPIHC/x2sbrAkDkOhiuL7zxhUOhZr
+        RhYLCg82rak2wB8WbgKuemB2pCkLhyV1DFZ3BsadfVidUgMZgoWoRB4JroRQvNQZ4NrLQWc6gImEM1/s
+        lNWNrz/8UOmjMJg5ePwFhBgB4dhJZ4DVmYHVlcbsohMKpR+RuIjD1Cls5GbHxbftB6NFcKlqZ4BtNwu1
+        gWmLpSyFYgO5wgWO8r8RCBeR2D9DMl1BKvOrM8BBv0dHF0m7GYfHV4AvJFLDROwFRSRTFWRzdRJXkSXg
+        jXtw1UQ3iWyeLLadabi8RzDbM9iiiLFliGIDgtAgSA2C2OwM8AaL2A0I2KNgEiUcpqvIUwnl8iXOzlrI
+        8OckltbA8LDq4tZVdvtyZFdAIFKirKdI8zXqwwVFHZnsOYo0D8eOUT5tXXdgtbL9k5N6RMkqm6yAS1ap
+        1hqJ6u0misdNlMhFpQIUhDrqdVx/TNJzHhiY58fGDHgh10H+Uo/RUT2k9fj4OiYmDJiYWsfU1AZevzJi
+        cHC5IZN97pNK+AOwI7cDDy8s+QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="editNoteToolStripButton.Text" xml:space="preserve">
+    <value>Edit Note</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Panel2.Parent" xml:space="preserve">
+    <value>splitLR</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;editNoteToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chUpdated.Text" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="mainStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 22</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="chUpdated.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="exportCaseToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;exportNoteListMenuItem.Name" xml:space="preserve">
+    <value>exportNoteListMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exportCaseTreeMenuItem.Name" xml:space="preserve">
+    <value>exportCaseTreeMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;newCaseToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteNoteMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newCaseMainMenuItem.Text" xml:space="preserve">
+    <value>N&amp;ew Case</value>
+  </data>
+  <data name="exportNoteListMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="mainTree.SelectedImageKey" xml:space="preserve">
+    <value>CaseOpen</value>
+  </data>
+  <data name="renameCaseTreeMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAV1JREFUOE9juFSb
+        af9/QenvJ9XJWxgYGBiBmDTwvz1uxd1cxf+Xbt35f/HyjZMkG5IRGqpuKsr3JSmj4P+NHan/7xyw2U2a
+        EyCqnX11mb7/X8Pw//9pzf+P92vtJNkQDgYG2+PZDB//rwAacl71/6NdqqQbArTV7FQO0JDlUEO2ypNn
+        yOk8qCFX1P/f3yhFniFnCoGGLAO65LLq//trxcgz5CzIEJB3rgNdslKAJEPYgOHBJMjAYHO9kuE72JBr
+        Kv/vr+Al2hAuoAH8IMzPxhBwvYrhBzh2bgINWchIlCHcQM3CQCwBxJICrAyx16uhhrzb9H/NpMp+YtIJ
+        MGkwiAOxPBAr8bMyJN/pt/3xbOPk//9fXvvPz86gQIwhTEBFAkCsCsRaTEyscdNyQ89/Xt/yf9/s1nXE
+        GABTwwLyChBrALGFnJhQbU649zMpKSkrUgwBqQUZBIohEFYCYhMAQLGTbIXO5o0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="splitLR.SplitterDistance" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="&gt;&gt;renameCaseTreeMenuItem.Name" xml:space="preserve">
+    <value>renameCaseTreeMenuItem</value>
+  </data>
+  <data name="deleteNoteMainMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mainTree.ImageKey" xml:space="preserve">
+    <value>CaseClose</value>
+  </data>
+  <data name="chTitle.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="mainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="newNoteToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="caseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newCaseTreeMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAT9JREFUOE9jYBg0
+        4MxMk/+nZxj/PznN8P/xKfr/SXIYSDM6ONSvRZwhCM0zgWYg4///93ap/t/VrvR/e4v8/61Nsv83N0r/
+        31AngWowyNn/v0/8//9LHybGcNf//+tqxFANAPn5/+vW//+fNf4/OkkXKz7Qq/F/T6fK/x2tCv+3NMqA
+        XQLC4HACBdj/B9VgjUQBoEUgsLiQG2IAWOOV/P+QsEAPB0z+j6MJYHUL8jggBoBC+/+ZdHAUgg0AhQce
+        /H5POFjdvBw2iAEg/4EMgHgBaAAoPPDgZ5v9wOrmZLFADABFFciA/T3qEAOA4YEP31npAlY3K4MJYgAo
+        nkEGgEIYbAAwPPDhywuswepmpjMiohOWSMg2AOQSWCoDJZTVlcL/V5QJ/F9azAuOLlCIgwIN5G+Q00G2
+        g8KMpPyCSzEAl88FiK3YiSsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="mainList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmStuff</value>
+  </data>
+  <data name="mainTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 382</value>
+  </data>
+  <data name="mainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mainList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;mainText.Parent" xml:space="preserve">
+    <value>splitUD.Panel2</value>
+  </data>
+  <data name="mainTree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;mainList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mainList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 138</value>
+  </data>
+  <data name="&gt;&gt;mainToolbar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="splitLR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 382</value>
+  </data>
+  <data name="splitUD.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About StuffCraft</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="&gt;&gt;mainTree.Parent" xml:space="preserve">
+    <value>splitLR.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainToolbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="menuList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 92</value>
+  </data>
+  <data name="&gt;&gt;menuTree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainToolbar.Name" xml:space="preserve">
+    <value>mainToolbar</value>
+  </data>
+  <data name="editNoteToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="noteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="deleteNoteToolStripButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Panel2.Parent" xml:space="preserve">
+    <value>splitUD</value>
+  </data>
+  <data name="&gt;&gt;newCaseTreeMenuItem.Name" xml:space="preserve">
+    <value>newCaseTreeMenuItem</value>
+  </data>
+  <data name="&gt;&gt;newCaseToolStripButton.Name" xml:space="preserve">
+    <value>newCaseToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chTitle.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="&gt;&gt;exportCaseToolStripButton.Name" xml:space="preserve">
+    <value>exportCaseToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;deleteNoteMainMenuItem.Name" xml:space="preserve">
+    <value>deleteNoteMainMenuItem</value>
+  </data>
+  <data name="&gt;&gt;newNoteListMenuItem.Name" xml:space="preserve">
+    <value>newNoteListMenuItem</value>
+  </data>
+  <data name="mainToolbar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mainText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 239</value>
+  </data>
+  <data name="renameCaseToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="newCaseTreeMenuItem.Text" xml:space="preserve">
+    <value>New Case</value>
+  </data>
+  <data name="&gt;&gt;mainList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAgAEBAAAAEACABoBQAAhgAAABAQAAABACAAaAQAAO4FAAAYGAAAAQAIAMgGAABWCgAAGBgAAAEA
+        IACICQAAHhEAACAgAAABAAgAqAgAAKYaAAAgIAAAAQAgAKgQAABOIwAAMDAAAAEACACoDgAA9jMAADAw
+        AAABACAAqCUAAJ5CAAAoAAAAEAAAACAAAAABAAgAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wBC2mkAID3cAJuyxwBXV1cAIps1AIWFhQBCd/8Aav+dANfX1wAwMDAAHyCfAFeeXQB4kvUAneCyAJ+f
+        nwDNu7YAedeVADSzVgBpaYgAcaB1AFPsgQCawaQAgpDVAOzs7AA1RsYAaWlpALKysgAvgjoAtd3BANnc
+        9wB3d3cAycnJACwxqACyssgAPDw8AJOTkwAstEQAUNx3AC1K2ABV/IgA4uLiAE1NTQCLxqAAvLu6APb2
+        9gCpqakAmq2dAMTWyQBhnmYAiIWSAHt8ggDQ0NAAXl5eACiiOwBW4n8Aw8PDAI2NjQApKqEA5+fnANzc
+        3ACYmJgAWuyGAGT/lwAurUUAWfaIALe3twDy8vIAbW1tAK2trQClpaUA1NTUAHp6egCioqIAxMbFAPj4
+        +ADu7u4A5eXlAODg4ABra2sAg4ODAKurqwCLi4sAp6enAJWVlQCdnZ0AVeF8AGj/mwCcwKMAZv+YALq6
+        ugD39/cA9fX1AOjo6ADj4+MA4eHhANvb2wDT09MAeHh4AIyMjACOjo4ArKysAKqqqgCoqKgAl5eXAKGh
+        oQCenp4AxcXFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAA0MzBKAAAAAAAAAAAAAAAABBMmDQAAAAAAAAAAAAAAACxaP0EyAAAA
+        AAAAAAAAAAAxOAlXNxUAAAAAAAAAAAAAah4WWCcGAAAAAAAAAAAAal0qD0JAAh0AAAAAAAAAEC49NTUS
+        KRcRFAAAAAAAR1xNYUhbS1kBDgM7AAAAAF5fQ2prPmQtGAgoDAAAAGpQBUVpOU8uAR8aIiMAAFULKxsH
+        SjlITkQBAQFRAABTJDYgZVRsYmAZTAEBOgAAAFJJYyVGIQo8XQFEVgAAAAAAABxoL2ZnaFZkAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA/D8AAPw/AAD8HwAA/A8AAPwPAAD4BwAA8AMAAOABAADgAQAAwAEAAIAB
+        AACAAQAAwAMAAPAPAAD//wAAKAAAABAAAAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzdHvVhoOR6JuvnvSfn5++AAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        xv+bm5v/jY2N/5GRkf+bm5v/q6ur/7q6uv/IyMj/1dXV/+Xl5f/09PT///////////+YpfX/O2Hw/z1l
+        7v8lPcz/Bwuj/AAAqDkAAAAAAAAAANTU1BO/v7/ekZGR/3Z2dv9+fn7/jIyM/5iYmP+jo6P/r6+v/7y8
+        vP/Jycn/0dHR/97e3v/p6en/9fX1///////8/Pz/fYPd/xcisP8yMav/iYm08dzc3EAAAAAAAAAAALq6
+        upl7e3v/cXFx/39/f/+IiIj/kpKS/5ycnP+mpqb/srKy/729vf/IyMj/0dHR/9zc3P/n5+f/8fHx//39
+        /f/7+/v/9/f3//b29v/29vb/4+Pj/15eXqgAAAAAAAAAAK6urttpaWn/fHx8/4ODg/+MjIz/lZWV/5+f
+        n/+pqan/tLS0/76+vv/Kysr/0NDQ/9vb2//l5eX/7u7u//n5+f/+/v7/9/f3//Hx8f/t7e3/+fn5/39/
+        f/EAAAAAAAAAAL6+vpyDg4P/e3t7/4iIiP+QkJD/mZmZ/6Kiov+rq6v/tbW1/7+/v//Jycn/0NDQ/9ra
+        2v/j4+P/7Ozs//X19f/+/v7/+fn5//b29v/5+fn/5ubm/2RkZLEAAAAAAAAAAOPj4w3b29u3pqam/4eH
+        h/+RkZH/nJyc/6Wlpf+urq7/t7e3/8DAwP/Jycn/0NDQ/9nZ2f/i4uL/6urq//b29v//////////////
+        ///CwsL/bW1txGVlZRUAAAAAAAAAAAAAAAAAAAAB+/v7VOHh4cS4uLj9qKio/6ioqP+vr6//ubm5/8TE
+        xP/Ozs7/1NTU/9/f3//q6ur/9fX1//Dw8P/b29v/sbGx/oaGhst4eHhenZ2dAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADZ2dkdwMDAYbq6upWysrK/sLCw262tre6rq6v4qKio+KWlpfCdnZ3dioqKwX5+
+        fpl7e3tmhoaGIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        2//T09P/zMzM/8zMzP+9vb3/qamp/5eXl/+pqan/YMSB/1Dqff9W/4r/hLaV/9/Q2v/i39//v720/5ua
+        kP9FSov5DxbFOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALa2tlGfn5/99vb2/+rq
+        6v/g4OD/2dnZ/9LS0v/MzMz/zMzM/729vf+tra3/nJyc/42Njf+mq6f/SMRw/4XFl//05fD/////////
+        8f+fp9T/HzvT/xkvyv8EC6nnAACiHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADGxsYonJyc8ezs
+        7P/u7u7/5OTk/93d3f/X19f/0NDQ/8zMzP/Nzc3/vr6+/6+vr/+goKD/kpKS/4mJif+eraP/xb3C/+/s
+        7f////z/mKrw/y1a8v86Yu7/KEDQ/xEdsv8AAJm8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDADqGh
+        odbd3d3/8/Pz/+fn5//h4eH/29vb/9XV1f/Pz8//zMzM/87Ozv/AwMD/sbGx/6Ojo/+Wlpb/iYmJ/4yM
+        jP+1tLX/0tDH/6u25v8uXvX/THz//ztg6v8mP83/ER6y/wEAmNUAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wGlpaWtysrK//j4+P/t7e3/5ubm/+Li4v/c3Nz/1tbW/87Ozv/Kysr/ycnJ/7u7u/+rq6v/oaGh/5aW
+        lv+Li4v/gYGB/5CQkP+7u7z/JUrl/06C//9Fcfn/NFPh/yM3yP8KD6r+AACpZAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAv7+/er6+vv7/////8PDw/+Tk5P/Y2Nj/zMzM/8PDw/++vr7/vr6+/7+/v//BwcH/xMTE/8bG
+        xv/AwMD/uLi4/7CwsP+ZmZn/fX19/46Ojv9ha8L/NVXl/zhd5/8oQ9P/Dhiw/gAAtJEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAN7e3ki/v7/82tra/729vf+rq6v/mJiY/5SUlP+Wlpb/np6e/6mpqf+1tbX/v7+//8vL
+        y//S0tL/3t7e/+rq6v/x8fH/9PT0//r6+v/09PT/3Nzc/8fHx/9marf/Iyqn/yYnmf5sbLuuAAAAAAAA
+        AAAAAAAAAAAAAAAAAADv7+8iv7+/7LS0tP+ZmZn/g4OD/35+fv+IiIj/k5OT/5ubm/+kpKT/ra2t/7e3
+        t//AwMD/ycnJ/9DQ0P/Z2dn/4uLi/+zs7P/09PT//v7+///////8/Pz/+fn5//Pz8//j4+P/rKys/25u
+        buthYWEeAAAAAAAAAAAAAAAA0NDQC76+vs+kpKT/dXV1/3V1df9/f3//h4eH/46Ojv+Wlpb/np6e/6am
+        pv+vr6//uLi4/8HBwf/Ly8v/z8/P/9jY2P/h4eH/6enp//Hx8f/6+vr///////j4+P/z8/P/8fHx//Hx
+        8f/x8fH/t7e3/2FhYctwcHAKAAAAAAAAAAC3t7d1oqKi/2lpaf92dnb/fX19/4SEhP+Kior/kZGR/5mZ
+        mf+hoaH/qamp/7Gxsf+5ubn/wsLC/8rKyv/Pz8//2NjY/+Dg4P/n5+f/7+/v//b29v//////+vr6//b2
+        9v/x8fH/7e3t/+vr6//x8fH/oKCg/2BgYIwAAAAAAAAAALu7u8p1dXX/c3Nz/3t7e/+BgYH/h4eH/46O
+        jv+VlZX/nJyc/6Ojo/+qqqr/srKy/7q6uv/CwsL/ysrK/8/Pz//X19f/39/f/+bm5v/t7e3/9PT0//z8
+        /P/9/f3/+Pj4//Pz8//v7+//7Ozs/+zs7P/t7e3/W1tb6AAAAAAAAAAAvb29wX5+fv92dnb/fn5+/4SE
+        hP+Kior/kJCQ/5eXl/+enp7/paWl/6ysrP+0tLT/u7u7/8PDw//Kysr/z8/P/9bW1v/e3t7/5eXl/+vr
+        6//y8vL/+fn5///////5+fn/9fX1//Hx8f/u7u7/7+/v/+np6f9cXFzeAAAAAAAAAADV1dVUurq6/nl5
+        ef9+fn7/h4eH/42Njf+Tk5P/mZmZ/6CgoP+np6f/rq6u/7W1tf+8vLz/w8PD/8rKyv/Pz8//1tbW/93d
+        3f/k5OT/6urq//Dw8P/39/f//f39//v7+//39/f/8/Pz//b29v/7+/v/iIiI/m1tbXEAAAAAAAAAAAAA
+        AADr6+t2x8fH/JSUlP+Dg4P/jIyM/5aWlv+cnJz/oqKi/6ioqP+vr6//tra2/729vf/ExMT/ysrK/87O
+        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
+        gAAAfwAA//8AAAA/AAD//gAAAB8AAP/+AAAADwAA//wAAAAHAAD/+AAAAAcAAP/wAAAABwAA//AAAAAH
+        AAD/4AAAAA8AAP/AAAAAHwAA/4AAAAA/AAD/AAAAAP8AAP8AAAAA/wAA/gAAAAB/AAD8AAAAAD8AAPgA
+        AAAAHwAA8AAAAAAfAADwAAAAAA8AAOAAAAAABwAAwAAAAAADAADAAAAAAAMAAMAAAAAAAwAAwAAAAAAD
+        AADgAAAAAAcAAPAAAAAADwAA+AAAAAAfAAD8AAAAAD8AAP8AAAAA/wAA/+AAAAf/AAD//wAA//8AAP//
+        /////wAA////////AAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBPT40zNDR4Nj4+IgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH6BgMNPVFb/Sldf/1xn
+        bvp1eH36kJCR67S0tI8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAW4aL
+        ju9si53/d46d/2Boc/80a0j/HHIp/yeBL/5In063AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACDg4Nih4eH+rjDyf9tj6T/jb3U/yWTPv8Ulir/KKhA/yOdN/8Nfxn+BX8MjQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAIKCgkV6enr68PDw/+Dl6P94m7X/L6pX/yixR/9X6IL/S9Vv/zu9V/8rpkD/C3wV/gR+
+        DXIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAXV1ddDa2tr//f39/+rq6/9msZr/IK5B/2X9l/9d8Ir/VON9/0jQ
+        av83ulT/J6A6/wh4EvwFfwtYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAJSUlAR7e3u9tLS0/+7u7v/e3t7/1NTU/8zMzP/Kysr/tra2/6CgoP+MjIz/enp6/4+P
+        j/9osoL+NMdi/1nyhf9f+I7/ZP6X/2H2kP9Y64T/Ttx0/2GRa/9ya3H/c3Bz/2dmZ/lycnJBAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAImJiYqdnZ3/8/Pz/+Pj4//a2tr/0tLS/8zMzP/Jycn/t7e3/6Sk
+        pP+SkpL/goKC/3R0dP+VlpX/VLZ0/jvRaP9a9If/XviO/2P/l/9j6o7/f4uE/5qXmv+srKz/kpKS/3R0
+        c/9oaGPsb29nJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmJiYVY+Pj/3w8PD/6Ojo/9/f3//Y2Nj/0NDQ/8zM
+        zP/Ly8v/ubm5/6ioqP+Xl5f/iIiI/3t7e/9xcXH/lZuX/0G8af1E23D/WfaI/2rrk/+VlZb/zcrM/+Pj
+        4//FxMT/r66n/4OFlP83P5v/GSClyQAAogcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACenp4siIiI8eXl5f/s7Oz/4+Pj/9zc
+        3P/W1tb/z8/P/8zMzP/Kysr/u7u7/6urq/+cnJz/jo6O/4GBgf91dXX/dHR0/46jlf80wmH9U997/6em
+        p//j4OL///////Hx7//j4tz/b3/L/xwzy/8aLcL/DRet/wMGp54AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKSkpBCMjIzY09PT//Ly
+        8v/m5ub/4ODg/9ra2v/U1NT/zs7O/8zMzP/Kysr/vLy8/66urv+goKD/kpKS/4aGhv96enr/cXFx/3t7
+        e/9/q43/fr2T/szHyv/z8/P//fz7//39+v9adeX/LU7g/zVW4v8mPs7/FiO3/wMFnv4AAKFrAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWFhYA5WV
+        lbG8vLz/9vb2/+rq6v/j4+P/3t7e/9jY2P/T09P/zc3N/8zMzP/Kysr/vb29/7CwsP+jo6P/lpaW/4uL
+        i/+AgID/dnZ2/21tbf+Hh4f/qq6s/r69vf/i4uH/+fjz/1577f84X+7/SXf+/zlc5/8nQM//GCe6/wYL
+        ov8AAJnkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAApKSkgKurq/739/f/7Ozs/+bm5v/h4eH/3Nzc/9fX1//R0dH/zMzM/8zMzP/Kysr/vr6+/7Ky
+        sv+mpqb/mpqa/4+Pj/+EhIT/enp6/3Jycv9qamr/k5OT/7Ozsv7LycP/d43k/zZd7P9Me///R3T7/zha
+        5f8mQM7/FiS5/wYKof8AAJnaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACvr69NoKCg/PPz8//v7+//6Ojo/+Tk5P/f39//2tra/9XV1f/Q0ND/zMzM/8zM
+        zP/Kysr/v7+//7S0tP+pqan/nZ2d/5OTk/+JiYn/f39//3Z2dv9vb2//bGxs/56enf+jqMD9Jkfc/0x6
+        //9Mef//QWny/zFS3v8jOcn/Ex+0/wICm/8AAJhvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALq6uieenp7v6Ojo//Ly8v/s7Oz/5ubm/+Hh4f/d3d3/2dnZ/9TU
+        1P/Q0ND/zMzM/8zMzP/Ly8v/wMDA/7W1tf+rq6v/oKCg/5aWlv+MjIz/g4OD/3p6ev9zc3P/bGxs/3Bw
+        cP+Mj6P/LULI/Ttg6f9Ca/T/N1jk/ypE0/8cLsD/BAig/wAAmbkAALcDAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAu7u7DqCgoNTX19f/9vb2/+zs7P/o6Oj/5OTk/+Dg
+        4P/c3Nz/19fX/9PT0//Pz8//zMzM/8zMzP/Ly8v/wMDA/7a2tv+tra3/oqKi/5mZmf+QkJD/h4eH/35+
+        fv93d3f/cHBw/2pqav92dnb/f4Sl/x0tu/wqRdL/KUTS/xkpu/8EBp//AACawQAAoA4AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACNjY0CqKiorMXFxf/5+fn/7+/v/+rq
+        6v/m5ub/4uLi/97e3v/a2tr/1tbW/9LS0v/Ozs7/zMzM/8zMzP/Ly8v/wcHB/7i4uP+urq7/paWl/5ub
+        m/+Tk5P/ioqK/4KCgv96enr/dHR0/25ubv9oaGj/eXl5/3Z5n/4eJKjwBAWe9AAAmM0AAJhrAACiBQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5ubl6uLi4/vn5
+        +f/x8fH/7Ozs/+jo6P/k5OT/4ODg/93d3f/Z2dn/1dXV/9HR0f/MzMz/zMzM/8zMzP/Kysr/wcHB/7i4
+        uP+vr6//p6en/56env+VlZX/jY2N/4WFhf9+fn7/d3d3/3Fxcf9ra2v/ZmZm/25ubv+MjIz8ysrKiQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMvL
+        y0mysrL78/Pz//Pz8//t7e3/6+vr/+jo6P/k5OT/4uLi/+Hh4f/f39//3d3d/9zc3P/b29v/2tra/9ra
+        2v/Y2Nj/0tLS/8zMzP/AwMD/tbW1/6Wlpf+SkpL/h4eH/4ODg/9+fn7/eHh4/3V1df9vb2//ampq/2Rk
+        ZP9fX1//WVlZ7GFhYSQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA0NDQI7Kysu3s7Oz/+Pj4//X19f/v7+//5eXl/9TU1P/Kysr/wMDA/7a2tv+vr6//rKys/6ys
+        rP+vr6//s7Oz/7e3t/++vr7/xMTE/8zMzP/T09P/3Nzc/+Dg4P/i4uL/1tbW/7+/v/+srKz/k5OT/3d3
+        d/9tbW3/aWlp/2ZmZv9jY2P/XFxc/1dXV9FjY2MMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADb29sMt7e30OHh4f/x8fH/0tLS/7y8vP+qqqr/nZ2d/5WVlf+Tk5P/lZWV/5ub
+        m/+ioqL/qamp/7CwsP+3t7f/v7+//8XFxf/Nzc3/0NDQ/9fX1//f39//5OTk/+vr6//x8fH/+fn5//39
+        /f/39/f/7u7u/+Hh4f/FxcX/pqam/4CAgP9jY2P/X19f/1lZWf9dXV2pAAAAAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wG8vLymw8PD/8TExP+qqqr/mZmZ/4mJif+BgYH/hYWF/4yM
+        jP+Tk5P/mJiY/56env+lpaX/q6ur/7Gxsf+4uLj/vr6+/8XFxf/Ly8v/z8/P/9XV1f/c3Nz/4uLi/+jo
+        6P/u7u7/9fX1//r6+v///////Pz8//r6+v/29vb/7Ozs/+Tk5P/MzMz/mpqa/2ZmZv9XV1f+YGBgeAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM3NzXS3t7f+rq6u/5CQkP93d3f/eXl5/39/
+        f/+FhYX/ioqK/4+Pj/+VlZX/mpqa/6CgoP+mpqb/rKys/7Kysv+5ubn/v7+//8XFxf/Ly8v/zs7O/9XV
+        1f/b29v/4uLi/+fn5//s7Oz/8vLy//j4+P/+/v7//f39//j4+P/29vb/8/Pz//Hx8f/r6+v/5ubm/9PT
+        0/+Li4v/W1tb+2JiYkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3t7eRLu7u/qdnZ3/cXFx/3Jy
+        cv96enr/fn5+/4ODg/+Hh4f/jY2N/5GRkf+Xl5f/nJyc/6Kiov+oqKj/rq6u/7Ozs/+5ubn/v7+//8bG
+        xv/Ly8v/zs7O/9TU1P/b29v/4eHh/+bm5v/r6+v/8PDw//b29v/7+/v//v7+//r6+v/39/f/8/Pz//Dw
+        8P/t7e3/6+vr/+rq6v/l5eX/qamp/2FhYexoaGgmAAAAAAAAAAAAAAAAAAAAAAAAAAC3t7cMvb296ZGR
+        kf9ra2v/c3Nz/3l5ef99fX3/gICA/4WFhf+Kior/j4+P/5SUlP+ZmZn/np6e/6SkpP+pqan/r6+v/7S0
+        tP+6urr/wMDA/8bGxv/Ly8v/zs7O/9TU1P/a2tr/4ODg/+Xl5f/q6ur/7+/v//T09P/5+fn//v7+//v7
+        +//4+Pj/9fX1//Ly8v/v7+//7Ozs/+vr6//p6en/6enp/6ampv9jY2PUYWFhCwAAAAAAAAAAAAAAAAAA
+        AAC2trZwnp6e/2lpaf9zc3P/d3d3/3t7e/9/f3//g4OD/4eHh/+MjIz/kZGR/5aWlv+bm5v/oKCg/6Wl
+        pf+qqqr/sLCw/7a2tv+7u7v/wMDA/8bGxv/Ly8v/zs7O/9TU1P/Z2dn/39/f/+Tk5P/p6en/7u7u//Pz
+        8//4+Pj//Pz8//z8/P/5+fn/9vb2//Pz8//w8PD/7u7u/+vr6//p6en/6Ojo/+vr6/+MjIz9Y2NjdwAA
+        AAAAAAAAAAAAAAAAAAC4uLjDe3t7/3Fxcf91dXX/enp6/319ff+BgYH/hYWF/4qKiv+Ojo7/k5OT/5iY
+        mP+dnZ3/oaGh/6enp/+srKz/sbGx/7a2tv+7u7v/wcHB/8jIyP/Ly8v/zs7O/9PT0//Z2dn/3t7e/+Pj
+        4//o6Oj/7e3t//Hx8f/29vb//Pz8//7+/v/8/Pz/+Pj4//X19f/y8vL/7+/v/+3t7f/q6ur/6Ojo/+np
+        6f/MzMz+Xl5eygAAAAAAAAAAAAAAAAAAAAC7u7vPenp6/3Nzc/94eHj/fHx8/39/f/+Dg4P/h4eH/4yM
+        jP+QkJD/lZWV/5mZmf+enp7/o6Oj/6ioqP+tra3/srKy/7e3t/+8vLz/wcHB/8fHx//Ly8v/zs7O/9PT
+        0//Z2dn/3d3d/+Pj4//n5+f/7Ozs//Dw8P/19fX/+fn5//7+/v/8/Pz/+fn5//b29v/z8/P/8fHx/+7u
+        7v/s7Oz/6enp/+rq6v/Y2Nj/XV1d1gAAAAAAAAAAAAAAAAAAAAC7u7uQmJiY/3Nzc/97e3v/fn5+/4GB
+        gf+Ghob/iYmJ/46Ojv+SkpL/l5eX/5ubm/+goKD/pKSk/6mpqf+urq7/s7Oz/7i4uP+9vb3/wsLC/8fH
+        x//Ly8v/zs7O/9PT0//Y2Nj/3d3d/+Li4v/m5ub/6urq/+/v7//z8/P/+Pj4//z8/P/+/v7/+vr6//f3
+        9//19fX/8vLy/+/v7//t7e3/7Ozs//Hx8f+oqKj/Y2NjmAAAAAAAAAAAAAAAAAAAAADIyMgdxMTE7YaG
+        hv96enr/gICA/4SEhP+Hh4f/i4uL/4+Pj/+UlJT/mJiY/52dnf+hoaH/pqam/6qqqv+vr6//tLS0/7i4
+        uP+9vb3/wsLC/8fHx//Ly8v/zs7O/9LS0v/Y2Nj/3Nzc/+Hh4f/l5eX/6enp/+7u7v/y8vL/9/f3//z8
+        /P/9/f3/+/v7//j4+P/29vb/8/Pz//Hx8f/w8PD/8/Pz/9fX1/9mZmbwcHBwIgAAAAAAAAAAAAAAAAAA
+        AAAAAAAA2traQsbGxvGVlZX/fX19/4WFhf+JiYn/jY2N/5GRkf+Wlpb/mZmZ/56env+ioqL/p6en/6ur
+        q/+wsLD/tbW1/7m5uf++vr7/wsLC/8nJyf/Ly8v/zc3N/9LS0v/X19f/3Nzc/+Li4v/k5OT/6enp/+3t
+        7f/x8fH/9fX1//n5+f/+/v7//Pz8//r6+v/39/f/9vb2//X19f/7+/v/x8fH/2pqavJ4eHhFAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOHh4SvKysrQtra2/pCQkP+Hh4f/jo6O/5OTk/+Xl5f/m5ub/5+f
+        n/+kpKT/qKio/6ysrP+xsbH/tbW1/7q6uv/AwMD/w8PD/8jIyP/Ly8v/zc3N/9LS0v/X19f/29vb/+Dg
+        4P/k5OT/6Ojo/+zs7P/w8PD/9PT0//j4+P/8/Pz//v7+//39/f/9/f3//////+Xl5f+Tk5P+aWlp1Hp6
+        ei8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw8PAF2traatLS0t++vr7+o6Oj/5OT
+        k/+Wlpb/nZ2d/6CgoP+lpaX/qamp/62trf+xsbH/tra2/7q6uv+/v7//w8PD/8jIyP/Ly8v/zc3N/9LS
+        0v/W1tb/29vb/9/f3//j4+P/5+fn/+vr6//v7+//9PT0//n5+f/////////////////S0tL/lJSU/29v
+        b+J5eXlvXl5eBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPn5
+        +Qbj4+NV29vbucvLy/a4uLj/rKys/6Wlpf+mpqb/qqqq/66urv+ysrL/uLi4/7u7u/+/v7//w8PD/8nJ
+        yf/MzMz/zc3N/9PT0//X19f/29vb/+Hh4f/m5ub/6urq//Dw8P/29vb/+vr6/+rq6v/MzMz/oqKi/3t7
+        e/d8fHy6f39/WGtrawgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANnZ2RPX19dX1dXVmc7OztS/v7/5tra2/7Ozs/+ysrL/tLS0/7i4
+        uP+8vLz/wsLC/8jIyP/Kysr/zMzM/9DQ0P/R0dH/0NDQ/83Nzf/Gxsb/u7u7/66urv+bm5v/hoaG+oeH
+        h9SIiIiaiYmJWYuLixUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9vb0Nubm5NrS0
+        tGCxsbGAr6+vnaqqqrWpqanGpqam1qOjo+CgoKDhnZ2d4Zubm+CWlpbWk5OTxpKSkrWPj4+djY2NgYmJ
+        iWCHh4c2h4eHDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD///z///8AAP///Af//wAA///4A///
+        AAD///AB//8AAP//8AD//wAA///gAH//AAD//+AAf/8AAP//4AA//wAA///AAB//AAD//8AAD/8AAP//
+        wAAH/wAA///AAAP/AAD//8AAAf8AAP//wAAA/wAA///AAAB/AAD//4AAAH8AAP//AAAAPwAA//4AAAAf
+        AAD//gAAAA8AAP/8AAAABwAA//gAAAAHAAD/8AAAAAcAAP/wAAAABwAA/+AAAAAPAAD/wAAAAB8AAP+A
+        AAAAPwAA/wAAAAD/AAD/AAAAAP8AAP4AAAAAfwAA/AAAAAA/AAD4AAAAAB8AAPAAAAAAHwAA8AAAAAAP
+        AADgAAAAAAcAAMAAAAAAAwAAwAAAAAADAADAAAAAAAMAAMAAAAAAAwAA4AAAAAAHAADwAAAAAA8AAPgA
+        AAAAHwAA/AAAAAA/AAD/AAAAAP8AAP/gAAAH/wAA//8AAP//AAD///////8AAP///////wAA
+</value>
+  </data>
+  <data name="deleteCaseToolStripButton.Text" xml:space="preserve">
+    <value>Delete Case</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitUD.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="deleteNoteToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAlNJREFUOE+Fk09I
+        VAEQxmeJtTRKLTKXLCVLE9syNU1NU3EhXSstKSTFCvsDq5Gkt8CoKOmPlwiUIlDUwosQSJfORSDdgkee
+        6rARHcxzLL9m3tPNNsGB4fF488188833fJIQxSLlFSKRqkCgITU7KyAx5Ne3r98//Pj57r3Is08iHxMx
+        y+/+JyIzc10dxN48h/EBeNgGd09qthIbbGeu7jBWowB/YhP/sMjnxZkJGO2G/iLoOwiRIFzZBxdy4fwu
+        6Mhhsasaq/2niXV1wQ+aYKAUbhZDjza4VgAX86BzN5zNgtZMCKex2Jy3zETEdjbajF72wH0K7l0JzoFz
+        O6ElAM1bIZQG9SnM7U3HsNIjMu7u3K8gm9y7H64q7Ut7lHa2Tt6h4G06OV3Bm6AuGaqSiFUkE1GsTAYC
+        UcZUsBtB5sO5OG1lOC3FOCeKcMJBnOOFOKECnPp8nNp85gtToETcnPL7ojJ7pAyGzrAQOcpv1g6rWaje
+        jvJndrMgs2UlMNgIjzvXRi9XdB+DIuGtNZjKzIjanWlXkUb6YXoYXj2CiSEYuw8v78GLO/rttgqteUsF
+        L9AVSoXXfomKCWEmoV2VPp0BTapyaCPUrIfKdd6+BzQLlzKoT6Vved1EdM9YV+4pfkp3C2+BhlSoVbUr
+        /DrJB4f+glywNv2SJd4ZLVwjqcNoVGBIs0bBlUlauApYG8R0/6eepePhWVkd5k6u1MlGfZXJBh7xJVh5
+        qY33M6nDYuUb4rd2G6lgRt1oL03+72eKU7G9zJ2TahK7s53K1DbB4juvoP4HSzwAwfF6P0QAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;newNoteListMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="caseToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Case</value>
+  </data>
+  <data name="chCategory.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="exportNoteToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 22</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="mainStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 431</value>
+  </data>
+  <data name="exitMainMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="deleteCaseTreeMenuItem.Text" xml:space="preserve">
+    <value>Delete Case</value>
+  </data>
+  <data name="mainToolbar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="deleteNoteListMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="splitUD.SplitterDistance" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Name" xml:space="preserve">
+    <value>splitLR</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editNoteToolStripButton.Name" xml:space="preserve">
+    <value>editNoteToolStripButton</value>
+  </data>
+  <data name="renameCaseToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVxJREFUOE9juFSb
+        af9ifvzvJ9XJWxgYGBiBmDTwtz1uxd1cxf+Xbt35f/HStZMkG5IREqJuys39JSmj4P+NHan/bx+w2k2a
+        EyCqnX11mb7/X8Pw//9pzf+P92vuJNkQDgYG2/0pDB//rwAacl71/6NdqqQbArTV7BTIkOVQQ7bIkWfI
+        6TyoIVfU/9/fIEWeIWcKgYYsA7rksur/+2vFyDPkLMgQkHeuA12yUoAkQ9iA4cEkyMBgcz6f4TvYkGsq
+        /++v4CHaEC6gAfwgzM/GEHCiiuEHOHZuAg1ZyEiUIdxAzcJALAHEkgKsDLEnqqGGvNv0f/Wkyn5i0gkw
+        aTCIA7E8ECvxszIk36k3+/Fs4+T//19e+8/PzqBAjCFMQEUCQKwKxFpMTKxx03KCzn9e3/J/3+zWdcQY
+        AFPDAvIKEGsAsYWcmFBtdpj3MykpKStSDAGpBRkEiiEQVgJiEwCLL5K96GYzZAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="deleteNoteListMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="mainStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="deleteNoteListMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="exportNoteMainMenuItem.Text" xml:space="preserve">
+    <value>Export Note</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="&gt;&gt;mainStatus.Name" xml:space="preserve">
+    <value>mainStatus</value>
+  </data>
+  <data name="&gt;&gt;mainList.Parent" xml:space="preserve">
+    <value>splitUD.Panel1</value>
+  </data>
+  <data name="deleteNoteToolStripButton.Text" xml:space="preserve">
+    <value>Delete Note</value>
+  </data>
+  <data name="&gt;&gt;chTitle.Name" xml:space="preserve">
+    <value>chTitle</value>
+  </data>
+  <data name="deleteCaseToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAahJREFUOE+NU01L
+        AlEUvaKlCzXKULKFIIlWoBZjiJvAoDKiRS2LKKxdIVTbdkWboGXLcH7CLNqEEMwPUvwDp3fe6DR+DDVw
+        4c2bOR/3S7Iic08iX1Z1C2Yq1T0XuRKfh9/McLhr5TIghljhof/9CbzdAmdl2POCa5H7cQ7e2UYBuDSA
+        w2X0GyuaRKiswXkBSioMmSDR4MoasJ8EiuqfsopaEFY8AKFtKmvw5iAGJMpyi+GCh/9UQ8BeDGZQusK8
+        aJvKLgGJ1HsnrsJYd5S94N0Y7KVZuPXSFqeRaKKAY5lnKg/AE3XyJdn4B3hYceZL224qXvBOFJ3UDG23
+        /NrMerR0zrTtBdejqnUJdNIRf4KRVnlzJvggARyngYss7Gxsck5GwN5qK9tU1uDTDNDMA3dq2AoLvyS6
+        jZXVqa1izrRNZQ2+KQIPFeB5G3Yp6bSRs42muuSEjbXKHSRlm8oa/FhTBHXg/QhmONQVLgZnW/fap886
+        RWWbyhr82gA+TmDlFuEsk1oMzjbHkxPmu0zKNpUJ7r80nGVy11ktRjsovb/WuR0J9ag8XOcfIqiQ4Umz
+        ENAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;exportNoteMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainTree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;newCaseMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;renameCaseTreeMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteCaseToolStripButton.Name" xml:space="preserve">
+    <value>deleteCaseToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;renameCaseMainMenuItem.Name" xml:space="preserve">
+    <value>renameCaseMainMenuItem</value>
+  </data>
+  <data name="&gt;&gt;deleteCaseToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportCaseToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="deleteCaseMainMenuItem.Text" xml:space="preserve">
+    <value>&amp;Delete Case</value>
+  </data>
+  <data name="chWordCount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;deleteNoteToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="renameCaseTreeMenuItem.Text" xml:space="preserve">
+    <value>Rename Case</value>
+  </data>
+  <data name="renameCaseMainMenuItem.Text" xml:space="preserve">
+    <value>&amp;Rename Case</value>
+  </data>
+  <data name="newNoteMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="renameCaseMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAV1JREFUOE9juFSb
+        af9/QenvJ9XJWxgYGBiBmDTwvz1uxd1cxf+Xbt35f/HyjZMkG5IRGqpuKsr3JSmj4P+NHan/7xyw2U2a
+        EyCqnX11mb7/X8Pw//9pzf+P92vtJNkQDgYG2+PZDB//rwAacl71/6NdqqQbArTV7FQO0JDlUEO2ypNn
+        yOk8qCFX1P/f3yhFniFnCoGGLAO65LLq//trxcgz5CzIEJB3rgNdslKAJEPYgOHBJMjAYHO9kuE72JBr
+        Kv/vr+Al2hAuoAH8IMzPxhBwvYrhBzh2bgINWchIlCHcQM3CQCwBxJICrAyx16uhhrzb9H/NpMp+YtIJ
+        MGkwiAOxPBAr8bMyJN/pt/3xbOPk//9fXvvPz86gQIwhTEBFAkCsCsRaTEyscdNyQ89/Xt/yf9/s1nXE
+        GABTwwLyChBrALGFnJhQbU649zMpKSkrUgwBqQUZBIohEFYCYhMAQLGTbIXO5o0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="mainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 24</value>
+  </data>
+  <data name="&gt;&gt;mainTree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newCaseToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 22</value>
+  </data>
+  <data name="&gt;&gt;chWordCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitUD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 382</value>
+  </data>
+  <data name="deleteNoteListMenuItem.Text" xml:space="preserve">
+    <value>Delete Note</value>
+  </data>
+  <data name="chCategory.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="exportNoteToolStripButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="editNoteListMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="menuTree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="exportNoteToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAtVJREFUOE+dkl1I
+        01EYxgfddFEXiWVEF115kRcG3UXeeCHsovADEoIia5Jo5haZKOicmaI5ldycmovK2RzLAp0fLYeKNpqY
+        utzXf3Nz/63NaWo6nZub+nT8akp14wsPnJdznt95eM9hGFOiFb7+1uXYqKgYxlFq8eoxTw2/HJ7FNVyK
+        OR17FMa5iDMXFi2NEfA6Y/3t7zpNMvkoJZF8ocTiYaq5uZ+qr++nBII+qra2l6rm91IVFd0Ul6swJyWV
+        yfYvjHTkMeyQMwD7FSDkxv9qa2/jjcyNAu4A/iS+kcKuc1WdxTZki7qMjTV65+gWcQQ3gfUg4FsHVon8
+        pH/KN+PBI2UYkJr6ROh2B6HNP7ED2dTFIOS1IUQAO2aibfPSGllvACXPKWSyDwCSk3OEDg8wMGgHXREB
+        tBOI4SICSzb4Q8AKMXuJ+ReRl/SF5Sbcz/4UTpCYmC00WAJQj8xiMxiEvfzULkQfjZUFG5YDAHkoLPhI
+        CgIrKDWCldUTBly/liXUjC+iR2lAMLQOv98Pd03kLmT8PJacw/CS6NvmZZIgj2fAnYzeMIDJzBSqR+bR
+        8EqH0ko18nmDKCjqg7bgONB5EhvONhQWjyDr8Vfkco3ILaFxO737MGB0MgiJfAZSuRa+1TnML3hgMeow
+        LU6DSyFCyGOA1TqDdM53sIvsuHUQkJCQIVSPBtAin0NHF40y/gTY+UMYHBrHN60Jhs/vMSMvg3aCwr2H
+        WnCK6MOA+HhW/aAmgObWWbR3WFFapUdxpRV6gwsOhxtGE41h9RheNkvA4uj+BsTFsXJlH1xofDsL+UcL
+        mcEEOIUGTGhpAvBgasoFk8mB8TEL7v4rwfaXZDJ5r6sEFrS0mWGnf0Knd+KHcw7T026YzQ7o9TZoNGT6
+        2ZPIKXTgZpoiPMT9P11d3cWrE6jaxGKVtKlJJRU1qKQNIqVUtKcXAqW0qkYl5df2t1Xye5/9BnY/ZB+l
+        vyZ/AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="deleteNoteToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="imageList16.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA4
+        DAAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/ARkBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEYBgABDP8AOQAByQIHAcQBYgFeAb8BMAEuAc0CBFEAAc4BGwEAAcsBVwEDAc8BZQEJ
+        Ac4BZAEIAc4BZAEIAc4BZAEIAc4BZAEIAc4BZAEIAc4BZAEIAc4BZAEIAc4BZAEIAc8BZQEJAcsBVwED
+        Ac4BGwcAAa8BHQEbAYoBXwFYAYgBbQFlAYcBbAFkAYcBbAFkAYcBbAFkAYcBbAFkAYcBbAFkAYcBbAFk
+        AYcBbAFkAYcBbAFkAYgBbQFlAYoBXwFYAa8BHQEbCQABmwEZARUB/QH2AfEB7gHdAdMBywGlAZkBogFG
+        AT0BoQENAQsBzUoAAc0BWwEEAd8BmQFFAeIBowFPAeIBoQFOAeIBogFPAeIBowFQAeIBowFRAeIBowFR
+        AeIBowFQAeIBogFPAeIBoQFOAeIBowFPAd8BmQFFAc0BWwEEBgABiAFjAVwBowGaAZABqAGgAZUBpwGe
+        AZQBqAGfAZUBqQGgAZYBqQGgAZcBqQGgAZcBqQGgAZYBqAGfAZUBpwGeAZQBqAGgAZUBowGaAZABiAFj
+        AVwJAAHFAXQBaQT/AfoB8gH/AfsB8AH/Af4B8QHuAdkByQHOAaMBlQGoAUUBPgGkAQ8BDQHRQQABzgFn
+        AQoB5QGnAVcB5QGkAU0B5gGmAVEB5gGnAVUB5gGpAVgB5wGqAVoB5wGqAVoB5gGpAVgB5gGoAVYB5gGm
+        AVIB5QGkAU0B5QGnAVcBzgFnAQoGAAGIAW8BZwGvAaYBmwGqAaEBlgGtAaMBmAGuAaUBmgGwAacBnAGw
+        AagBnQGwAagBnQGwAacBnAGuAaYBmgGsAaMBmAGqAaEBlgGvAaYBmwGIAW8BZwYAAb4BAgEBAeEBwwG5
+        Av8B/gH/AfsB9QH/AfkB8AH/AfcB6gH/AfYB6AH/AfcB5gH/AfoB5QHvAdQBwAHLAZ0BjAGmAT8BOQGo
+        AQ8BDgHROAABzwFlAQkB6QGtAWIB6gGvAWMB6wGxAWgB6wG0AW0B7AG2AXEB7AG3AXIB7AG3AXIB7AG2
+        AXEB6wG0AW4B6wGyAWkB6gGvAWQB6QGtAWIBzwFlAQkGAAGIAW0BZQG3Aa4BowG4Aa8BpAG6AbIBpwG8
+        AbQBqgG+AbYBrAG+AbcBrQG+AbcBrQG+AbYBrAG8AbUBqgG6AbIBpwG4AbABpAG3Aa4BowGIAW0BZQYA
+        AaUBIgEZAfwB+AH2Av8B/gH/AfsB+QH/AfkB9AH/AfcB7wH/AfYB6gH/AfUB5gH/AfMB4QH/AfIB3QH/
+        AfQB2wH/AfUB2AHsAc4BtQHLAZwBiAGdAS4BKjMAAc8BZQEKAe4BtgFyAfABvAF6AfABvgGAAfEBwQGG
+        AfIBwwGKAfIBxAGMAfIBxAGMAfIBwwGKAfEBwQGGAfEBvwGAAfABvAF7Ae4BtgFzAc8BZQEKBgABiAFu
+        AWYBwQG6Aa4BxQG+AbMBxwHBAbcBywHEAboBzQHGAbwBzQHHAb4BzQHHAb4BzAHGAbwBywHEAboByAHB
+        AbcBxgG/AbMBwQG6Aa8BiAFuAWYGAAHVAYQBbgf/Af4B/AH/AfwB9wH/AfsB9AH/AfsB8QHwAd0B0gH/
+        AfQB5QH/AfIB3gH/Ae8B2wH/Ae4B1gH/Ae0B0gH/AfUB1QG/AYEBcjMAAc8BZQELAfIBvwGDAfUByAGR
+        AfUBygGXAfYBzgGdAfcB0AGiAfcB0QGkAfcB0QGkAfcB0AGiAfYBzgGeAfYBywGXAfUByAGRAfIBvwGD
+        Ac8BZQELBgABiQFuAWYBywHFAboB0wHNAcIB1QHPAcUB2AHSAckB2gHUAcsB2wHVAc0B2wHVAc0B2gHU
+        AcwB2AHSAckB1QHQAcYB0wHNAcIBzAHFAboBiQFuAWYDAAHAAQQBAgHsAc0BvQn/Av4B/AHsAdgB1AHZ
+        AbIBrgHYAbEBrAHwAdoBzwH/AfUB5AH/AfIB3QH/AfAB2gH/Ae4B1QH/AfAB0wGbAScBIjMAAc8BZgEL
+        AfYBxwGSAfoB0wGlAfkB1QGrAfoB2QGyAfoB2wG3AfoB3QG6AfoB3QG6AfoB2wG3AfoB2QGyAfkB1gGr
+        AfoB0wGlAfYBxwGTAc8BZgELBgABiQFvAWcB1QHPAcQB3wHaAc8B4AHbAdIB4wHeAdYB5QHhAdkB5QHi
+        AdoB5QHiAdoB5QHgAdkB4wHfAdYB4QHcAdMB3wHaAdAB1QHPAcQBiQFvAWcDAAGsASQBGgH/AfoB9wP/
+        AfwC+AHnAdMB0gHgAcMBwgHtAd0B2wH9AfYB8QH/AfoB8wHcAbgBsQH/AfkB6wH/AfIB4gH/AfAB3AH/
+        AfEB2wHkAcMBrgGtAgYzAAHQAWYBCwH5Ac0BnwH9AdsBtQH8Ad4BuwH9AeEBwwH9AeQByAH9AeYBywH9
+        AeYBywH9AeUByAH9AeIBwwH8Ad4BuwH9AdsBtQH5Ac4BnwHQAWYBCwYAAYkBbwFnAd0B1wHMAegB4wHa
+        AekB5QHcAesB6AHgAe0B6gHjAe4B6wHlAe4B7AHlAe4B6gHjAewB6AHgAekB5QHdAegB5AHaAdwB1wHM
+        AYkBbwFnAwAB3AGJAW4C+wH9Ae8C4gHuAt8B/AL6Bf8B/gH/AfwB+QH/AfsB9QHuAdoB0wHyAd8B1QH/
+        AfYB5wH/AfMB4QH/AfcB4QHDAYcBejYAAdABZgENAfoB1QGuAf8B5AHHAf4B5gHMAf8B6gHTAf8B7QHZ
+        Af8B7gHcAf8B8QHgAf8B8AHeAf8B7QHYAf8B6QHRAf8B5wHMAfwB2gG2Ac8BaAEOBgABigFvAWcB4wHe
+        AdUB7wHsAeQB8AHtAeYB8gHwAekB9AHxAewB9QHzAe4B9wH1AfEB9wH0Ae8B9QHyAe0B8wHwAekB8gHv
+        AucB4wHaAYoBcQFpAwAB6AGlAYQB9wHkAdsQ/wH+Af0B/wH8AfgB/wH+AfYB5AHHAcAB/wH5AewB/wH0
+        AeUB/wH2AeMBnQErASc2AAHPAWoBEgH7AfUB7g//AfsB9AHsAfoB8QHpAfoB8QHoAfoB8QHoAfsB8gHq
+        AfAB0QGyAcwBWwEGBgABiwFzAWsC9gH1D/8B9gH1AvQB8wHxAfQB8wHxAfMB8gHxAfUB9AHyAdgB1AHR
+        AYgBZAFcBgABtAEZARIBxgFcAUYB6AG8AagB9QHlAd0K/wH9AfwB/wH7AfcB9QHoAeEB9AHmAd0B/wH6
+        AesB5AHHAbgBrgEHAQY2AAHMAVsBBgHwAdQBuAH7AfUB7wH7AfQB7QH7AfQB7QH7AfUB7gHxAdUBugHP
+        AXMBGQHOAWgBEgHPAWkBEwHPAWkBEwHOAWoBEwHMAVcBBAHMAR0HAAGIAWQBXAHaAdcB1AH2BPUB9AL1
+        AfQB9gL1AdwB2AHWAYcBfAF0AYoBcAFpAYsBcQFqAYsBcQFqAYwBcgFrAYkBXwFXAbEBHwEdDAAB0QIA
+        Aa4BFAEOAbwBVQFGAd4BtwGoAfMB5QHhCP8B+gHvAdwB1QL/AfQBwwGKAX85AAHMAR0BAAHMAVYBAwHQ
+        AWoBEgHQAWkBEgHQAWkBEgHQAWoBEgHMAVYBAwHLARwBAAHRAQcBAAHRAQcBAAHRAQcBAAHRAQcBAAHS
+        AQIKAAGxAR8BHQGKAV4BVwGMAXIBagGLAXEBagGLAXEBagGMAXIBagGJAV4BVwGtAR4BHAHMAgcBzAIH
+        AcwCBwHMAgcB0AEDAQIYAAHNAgABpwETAQ8BsQFNAUEB0wGvAaYB8gHnAeMB/wH+AfoB/wH4Ae4BnQEr
+        ASexAAHJAgABmQEKAQgBnAFAAToBugGIAYABrwEEAQP2AAFCAU0BPgcAAT4DAAEoAwABQAMAARADAAEB
+        AQABAQUAAYAXAAP/AQAG/wIABP8BwwH/AgABgAEBAYABAQHAAX8CAAGAAQEBgAEBAcABDwIAAYABAQGA
+        AQEBgAEBAgABgAEBAYABAQGAAwABgAEBAYABAQGAAwABgAEBAYABAQQAAYABAQGAAQEEAAGAAQEBgAEB
+        AQABAQIAAYABAQGAAQEBAAEBAgABgAEBAYABAQGAAQECAAGAAQEBgAEBAeABAwIAAYABAwGAAQMB/AED
+        AgAF/wGDAgAG/wIACw==
+</value>
+  </data>
+  <data name="&gt;&gt;editNoteListMenuItem.Name" xml:space="preserve">
+    <value>editNoteListMenuItem</value>
+  </data>
+  <data name="deleteNoteListMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAldJREFUOE+Fk1tI
+        VHEQxmeJ3dQotchcLyVZmmxbtprXNBUX0rXSkmJJscIusBpJ61tgVJR0I4hAKQJFDepBCJZeepfAHoND
+        PtXDRvRgPsfya/7n6Gab4MBwOJz5vvnmmzkuSYkKkeoakUh9fl5rZmG+VxLIr29fv8/9+PlhTuT5J5GP
+        qZiVd/djkdn5vh4S717A5DA86IY7JzS7SIyEmW8+jKlRgDuVxP1U5PPS7BSM90O0HIYOQsQPl/fB+WI4
+        txN6iljqa8DU/kNiWG3w/XYYroQbARhQgqtlcKEEenfDmQLoyoVQFksdJStKRMzMRjbjlxzwkIIHV4OL
+        4GwhdHqhYxsEs6Alg/m92RisDIhM2jNHFWQ6D+6HKyr74h6VvUs75yt4u3bOVvBmaE6Heg+J2nQiipXp
+        PG+cCTXsup+FUDFWdxVWZwDreDlWyI91zIcVLMNqKcVqKmXBl4G2tnMmzRWXWE0VjJ5mMXKE36wfpmax
+        YQcEhNgWQWJVFTDSBo9610evVPQfhXLhvSGYyc2Jmz0TVpPGovDmCbx+CFOjMHEPXt2Fl7f12y01WvOm
+        Gl6mI1QKbz0SF2OEORLC6vSpHGhXl4OboHEj1G1w5j2g6VtOvz5VvslrxkR7jc3VjuMndbbQVmjNhCZ1
+        u9atnVxw6C/IBivplwJx1mjCPiS9MNoUGNRsVHCdRwvXACtBQud/5px0MpxT1guzO9dpZyN9jc4GPOZK
+        OeVlGudn0gtLVKcld20TqWFGupG93Pm/nykpxcxlrnPa44qbPZtVGbeNYcmZV0n/A3MTANp434bBAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="newNoteListMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;mainText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editNoteMainMenuItem.Text" xml:space="preserve">
+    <value>&amp;Edit Note</value>
+  </data>
+  <data name="exportCaseToolStripButton.Text" xml:space="preserve">
+    <value>Export Case</value>
+  </data>
+  <data name="newNoteListMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="splitLR.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;caseToolStripMenuItem.Name" xml:space="preserve">
+    <value>caseToolStripMenuItem</value>
+  </data>
+  <data name="deleteCaseMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="editNoteToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqFJREFUOE9t011I
+        U2EYB/BzYVB0521EECpe1W3XUhB4EdFFEhhSJFhERFQglimJoZdJEoVFiaEdp2lmllKppEGlm27THY+6
+        NredfX+47+38+59p2oYHnu0dO+/v+T/v2QTzuTKd8qUjebK85MTpS/VXB2fW1dnVKGakTXxfDmHaHMKk
+        0Y9vCz4MzLjjZ2vbrgn/X/GKIveT9vtQ/JsYmpLWsMeVUVX4kilMWbxYtKdw5kr7rR1jvyAcKS4uS4y3
+        lQLyMWQixh0iy5XKyhIIpzL4anbDEUiix5BEZVXLLkKt1NUo+PFWgGreRf4BGpLKqhidcyIQSsARyWLa
+        EkNF5d0bO0lKDwiH5AbBi14iluPIBA257rkElDJcjOmdOUSrMYOCFzoT8s7jcl1Tn731ILQkWWM5ET20
+        FGm+xNNANK0ikMzCFkljJZxB98hyAXC7Q0QyArmpaAtZLEHSP48YgSiBcAoEAHdMxQard7QAqLneLmon
+        mAh6sdpMRNSQowgrvxHkZl8C8MYBJcbiWvwo5SeoqXskhtnJxRs8Hi+sD7cR/WH4nL+gcLNrE9iIsHhP
+        32gBUF3bInoo83HD6AEMMpNsI6q+BG6PCzYCVgLWKNAzUgBcqGkWmRQWbv5pB35sAJMmD6yt++Cb7EbK
+        tYS1MLASAlaJvB4uAM5XN4oZAgGmsPHGWRvwaZWPzxiGZbgLjp4GBBQblghY+P3Ld3sAPOStWTmjkzFN
+        HGdcBnQSMDGv4HFTPeZcCZiCwPOBPQDug4Nz2lnrjKlFllkSu2qdDdw4+yeSe39KNe+HVHXxQT+bwk7F
+        xsU6EW1WiQD/lLmuCwFgXit+7tTJ+cCpyjv3Bj+vofeDhDc84e73El4NSblZuwYlPGNkrWunyOqXcbNx
+        wvIX5jjH3x7xwGkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="mainTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="exportCaseToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="&gt;&gt;mainStatus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="deleteCaseToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="editNoteToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="mainText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;deleteCaseTreeMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exportCaseMainMenuItem.Text" xml:space="preserve">
+    <value>&amp;Export Case</value>
+  </data>
+  <data name="exportCaseTreeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="&gt;&gt;menuList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chWordCount.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="deleteNoteToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 22</value>
+  </data>
+  <data name="&gt;&gt;exportNoteToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainText.MaxLength" type="System.Int32, mscorlib">
+    <value>65535</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;mainList.Name" xml:space="preserve">
+    <value>mainList</value>
+  </data>
+  <data name="newCaseMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="mainMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="exportNoteListMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAthJREFUOE+dkl1I
+        01EYxgfddFEXiaFEF115kRcG3UVCFyIoFIoYEhRZWqJZM7KYMHVmSnPTzK1N06zUpiwL/Ha6VJTVxHTL
+        ff03N/fh5jS1OT82N/XpTLMZ1Y0vPHBeznl+5+E9h6ZNjujAQNNyVFhYJO0g5bpwyFnBLYVzaR1nIo9H
+        HYRxIiT81JKhOgSwnfe0vmvXtYjHqaamz1R9/QhVWztICYUDFI/XT1VW9lLl3B6Kze6iCgo79ImJJS17
+        F4bOMGhmiGmA+Rzgd+B/tf1r402LA3kFg/id+HIyvcrOCUcAsk2dxea6ZefoNnH4toANH7C2AawSeUj/
+        mKvHnfuSICAl5SHf4fBByTiyA9lSRcLvNsFPADtmooDZtU7Wm0BRGYVM+j5AUhKdb3UCg0NmWJ6SebQS
+        iOY0vC4TPH5ghZjdxPyDyE16ZqkOt7N7gwkSErL5GoMXstE5bPl8MJce24WoI7CyaMKyFyAPhcU1koLA
+        8oq1SMvqDgIuXcziyyeW0C3RwOffgMfjgaMidBcycRIu2wjcJHrAvEwSPGJpcD2jJwiIi8vky0YXIHyl
+        QjFbBgZrCHn5/VDmHQbaj2LT1gxm4SiyHnxBboEWuUUWXEvv+hMwNulDo3gWIrESa6vzWFh0wqBVYbou
+        FfYOAfxODYzGWaTnfAM934yr+wGxsRl82ZgXDeJ5tHVaUMJVgM4YxtDwBL4qddD0vcesuARKBYWbd5XI
+        ybf8CYiJufViSO5FbdMcWtuMKOaoUcg2Qq2xw2p1QKuzYEQ2jpe1jUjLUf0NiI5Oy235YEf12zmIPxrI
+        DBTIYWqgUFoIwImpKTt0Oismxg248a8EgS8ZH896zeEZ0NCsh9nyHSq1DTO2eUxPO6DXW6FWmyCXk+ln
+        T+Ie04orqR3BIe796fLyTlYVT9pcV/dJVFMjFQmEUpFQ0CcSCCREfaLnPImIUyEVcZ8NNJdxe5/8BI6b
+        ZHqnRA/QAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;newNoteMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newCaseToolStripButton.Text" xml:space="preserve">
+    <value>New Case</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exitMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEAAA
+        CxABrSO9dQAAAsFJREFUOE91km1IU2EYhneOX02CFilYWQlp9aPIX0r2IyEXlZEgLg1LhyQqlrXhB6il
+        zo1muROloItZavkxaVNsm0UlGU1bWKFhkPnPNAw/UGfNrXH3bCmuXC9c8PKcc1/nfZ/zMDwvS6PRWAL5
+        /HCHw8Halm2s3W5j7HY7u0x7h8PpXFhYNKtUnJiis97yPK1WuySrlKFCrkBrqxmNjf1Qq82orX0NjhtA
+        VpZ0joJpRIg3AdPc3LR0VVEN4zhgscxR0Ay9fgQGwxgaGoaQmZk3T0E5sXudgKniPRkcHLSXVSrx9jtg
+        HpiGXjcCmw2YngaMxklkZOQuUPAmEb4qYGjjhr3F/IprPOp80fsS4z9J0D+FujoLtNpPqKnph0LxDGJx
+        9qoggsdy7FdBPX/eTV2gNelDFHY1ByFSHQknSGCegkxmglzeg8pKE+2fIi0te5E+Vk1E8ALu+Nmq5s7A
+        k+szSQhrCsbhthiMjc2jtLQbZWUGlJc/RkWFCampF9YE/rd9bRXfTsOTaxOnsOP+Fhxpj8KX0Rl0db1B
+        X58FxcWdbllysnhNwHKM1Z/ztfqrfK18zn/hRP8BbNUIEHP3EEqNJdAbhnGjSgelUo2Cgna3JDHxnJWO
+        ryL2uJq4k8hb6aqKqebZhffinNruVgQpeeg0DaOwoANSaQvy89tRVKRDQsLZvwQbViQu216mnDfQ+7zX
+        Lpam4mBbAHQ97yGVtLoFfyQdiI8X/Vg5QcS630iF7YUFhbO5kmyoDVUw9owiL68ZEslD4gHS0zkIhScn
+        /50Dz4EKSElJVYuSkoeEccff6R59RE5OA3WeQ2zslc8hIftbWNZHQ4HLRKjXUaZiMJHI528qEokUE9HR
+        518JBKGNVKsnSlzPiH2E6/pely9Vg4gwIoa4RFwkjhGue28m/P4X9qy7xjvQ1RdiG7GR8PF84Tcdjnw0
+        u9ukawAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="exportNoteListMenuItem.Text" xml:space="preserve">
+    <value>Export Note</value>
+  </data>
+  <data name="splitLR.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;sfd.Name" xml:space="preserve">
+    <value>sfd</value>
+  </data>
+  <data name="&gt;&gt;deleteNoteListMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitLR.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;editNoteMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 92</value>
+  </data>
+  <data name="&gt;&gt;exportCaseTreeMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newNoteMainMenuItem.Name" xml:space="preserve">
+    <value>newNoteMainMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editNoteMainMenuItem.Name" xml:space="preserve">
+    <value>editNoteMainMenuItem</value>
+  </data>
+  <data name="&gt;&gt;deleteCaseTreeMenuItem.Name" xml:space="preserve">
+    <value>deleteCaseTreeMenuItem</value>
+  </data>
+  <data name="&gt;&gt;deleteCaseMainMenuItem.Name" xml:space="preserve">
+    <value>deleteCaseMainMenuItem</value>
+  </data>
+  <data name="splitUD.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Name" xml:space="preserve">
+    <value>splitUD</value>
+  </data>
+  <data name="&gt;&gt;exportNoteToolStripButton.Name" xml:space="preserve">
+    <value>exportNoteToolStripButton</value>
+  </data>
+  <data name="deleteNoteMainMenuItem.Text" xml:space="preserve">
+    <value>&amp;Delete Note</value>
+  </data>
+  <data name="mainMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 2, 0, 2</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Parent" xml:space="preserve">
+    <value>splitLR.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Panel2.Name" xml:space="preserve">
+    <value>splitLR.Panel2</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="newCaseTreeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="&gt;&gt;sfd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;mainToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="renameCaseToolStripButton.Text" xml:space="preserve">
+    <value>Rename Case</value>
+  </data>
+  <data name="deleteNoteMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editNoteMainMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="exitMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 22</value>
+  </data>
+  <data name="editNoteMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqJJREFUOE9t091L
+        U3EYB/BzYVD0DwQRQqh4Vbddh0HgRXQRvYAhFYJFdCEViIWTRNLuiiQKi5KFdly+ZGZZpEkaveim23TH
+        o87Nvb/PvW/n2/dM0zY88Gy/sfP7PN/ndzbBfKZCh3Ftqqqy7NjJS41Xf65llOnlGKakDXxfDGPSHMaE
+        MYDxOT8GpjyJ03Xt14T/r0RViedxx124AxsYnJRXsMuVVRT4U2l8s/gwb0/jVF1Hw7axVxBKD5RWJMfa
+        ywH5CLJR4zaR40ph5QhE0ll8NXvgCKagNaRQfa51B6FW7tMIAbwRoJh3kH+AiqRzCkZmnAiGk3BEc5i0
+        xHG8+vaN7STl+4SDtibBhx4ilqPIhgz57vkElLJcjOqdeUStUYMbz3UmFJzH5XpNr71tP9QkOWMlET3U
+        FBm+JDJALKMgmMrBFs1gKZJF9/BiIXDl5iMRqShkTckmMl+GVGAWcQIxApE0CACeuIJ1Vs9IEVB7/YGo
+        nmAy5MNyCxFRRQ4j4v6DEDf7k4AvAbjjLK7FD1Jhgtr6+2KEnVy8wev1wXpvC9Efgt/5G25udm0A61EW
+        7+kdKQJq6lpFL2U+bhi9gEFmki1E0ZfB43XBRsBKwBoDtMNFwIXaFpFJYeHmX3bgxzowYfLC2rYH/olu
+        pF0LWIkAS2FgmciroSLgbE2zmCUQZAobb5y2AR+X+fiMEViGuuDQNiHotmGBgIXfvxjYBeAhb87KGZ2M
+        aeI4YzKgk4DPs2481DRixpWEKQQ8e7sLwH1wcE47a5Ux1cgyS2JXtbOBG6fXovn3J1QLfkjnLzb3sSns
+        VGxcrBJRZ5UI8E+Z7zoXBGbV4udOnVwInKi+daf/0wp63kt4zRPufifh5aCUn7WrX8JTRla7doqsPhkN
+        mi+Wv2yDyI8WqyvpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Panel2.Name" xml:space="preserve">
+    <value>splitUD.Panel2</value>
+  </data>
+  <data name="mainText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="renameCaseToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="&gt;&gt;exportNoteListMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newNoteListMenuItem.Text" xml:space="preserve">
+    <value>New Note</value>
+  </data>
+  <data name="mainStatus.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 16, 0</value>
+  </data>
+  <data name="splitLR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 49</value>
+  </data>
+  <data name="&gt;&gt;renameCaseToolStripButton.Name" xml:space="preserve">
+    <value>renameCaseToolStripButton</value>
+  </data>
+  <data name="exportNoteMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="editNoteListMenuItem.Text" xml:space="preserve">
+    <value>Edit Note</value>
+  </data>
+  <data name="&gt;&gt;noteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Panel1.Parent" xml:space="preserve">
+    <value>splitUD</value>
+  </data>
+  <data name="&gt;&gt;chCategory.Name" xml:space="preserve">
+    <value>chCategory</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 480</value>
+  </data>
+  <data name="&gt;&gt;deleteNoteListMenuItem.Name" xml:space="preserve">
+    <value>deleteNoteListMenuItem</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;mainTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="&gt;&gt;imageList16.Name" xml:space="preserve">
+    <value>imageList16</value>
+  </data>
+  <data name="deleteCaseTreeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="&gt;&gt;mainStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mainToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 25</value>
+  </data>
+  <data name="mainText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;deleteCaseMainMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newNoteToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitMainMenuItem.Name" xml:space="preserve">
+    <value>exitMainMenuItem</value>
+  </data>
+  <data name="&gt;&gt;chWordCount.Name" xml:space="preserve">
+    <value>chWordCount</value>
+  </data>
+  <data name="editNoteToolStripButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;newCaseMainMenuItem.Name" xml:space="preserve">
+    <value>newCaseMainMenuItem</value>
+  </data>
+  <data name="&gt;&gt;chTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editNoteListMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqJJREFUOE9t091L
+        U3EYB/BzYVD0DwQRQqh4Vbddh0HgRXQRvYAhFYJFdCEViIWTRNLuiiQKi5KFdly+ZGZZpEkaveim23TH
+        o87Nvb/PvW/n2/dM0zY88Gy/sfP7PN/ndzbBfKZCh3Ftqqqy7NjJS41Xf65llOnlGKakDXxfDGPSHMaE
+        MYDxOT8GpjyJ03Xt14T/r0RViedxx124AxsYnJRXsMuVVRT4U2l8s/gwb0/jVF1Hw7axVxBKD5RWJMfa
+        ywH5CLJR4zaR40ph5QhE0ll8NXvgCKagNaRQfa51B6FW7tMIAbwRoJh3kH+AiqRzCkZmnAiGk3BEc5i0
+        xHG8+vaN7STl+4SDtibBhx4ilqPIhgz57vkElLJcjOqdeUStUYMbz3UmFJzH5XpNr71tP9QkOWMlET3U
+        FBm+JDJALKMgmMrBFs1gKZJF9/BiIXDl5iMRqShkTckmMl+GVGAWcQIxApE0CACeuIJ1Vs9IEVB7/YGo
+        nmAy5MNyCxFRRQ4j4v6DEDf7k4AvAbjjLK7FD1Jhgtr6+2KEnVy8wev1wXpvC9Efgt/5G25udm0A61EW
+        7+kdKQJq6lpFL2U+bhi9gEFmki1E0ZfB43XBRsBKwBoDtMNFwIXaFpFJYeHmX3bgxzowYfLC2rYH/olu
+        pF0LWIkAS2FgmciroSLgbE2zmCUQZAobb5y2AR+X+fiMEViGuuDQNiHotmGBgIXfvxjYBeAhb87KGZ2M
+        aeI4YzKgk4DPs2481DRixpWEKQQ8e7sLwH1wcE47a5Ux1cgyS2JXtbOBG6fXovn3J1QLfkjnLzb3sSns
+        VGxcrBJRZ5UI8E+Z7zoXBGbV4udOnVwInKi+daf/0wp63kt4zRPufifh5aCUn7WrX8JTRla7doqsPhkN
+        mi+Wv2yDyI8WqyvpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;mainTree.Name" xml:space="preserve">
+    <value>mainTree</value>
+  </data>
+  <data name="deleteNoteMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAldJREFUOE+Fk1tI
+        VHEQxmeJ3dQotchcLyVZmmxbtprXNBUX0rXSkmJJscIusBpJ61tgVJR0I4hAKQJFDepBCJZeepfAHoND
+        PtXDRvRgPsfya/7n6Gab4MBwOJz5vvnmmzkuSYkKkeoakUh9fl5rZmG+VxLIr29fv8/9+PlhTuT5J5GP
+        qZiVd/djkdn5vh4S717A5DA86IY7JzS7SIyEmW8+jKlRgDuVxP1U5PPS7BSM90O0HIYOQsQPl/fB+WI4
+        txN6iljqa8DU/kNiWG3w/XYYroQbARhQgqtlcKEEenfDmQLoyoVQFksdJStKRMzMRjbjlxzwkIIHV4OL
+        4GwhdHqhYxsEs6Alg/m92RisDIhM2jNHFWQ6D+6HKyr74h6VvUs75yt4u3bOVvBmaE6Heg+J2nQiipXp
+        PG+cCTXsup+FUDFWdxVWZwDreDlWyI91zIcVLMNqKcVqKmXBl4G2tnMmzRWXWE0VjJ5mMXKE36wfpmax
+        YQcEhNgWQWJVFTDSBo9610evVPQfhXLhvSGYyc2Jmz0TVpPGovDmCbx+CFOjMHEPXt2Fl7f12y01WvOm
+        Gl6mI1QKbz0SF2OEORLC6vSpHGhXl4OboHEj1G1w5j2g6VtOvz5VvslrxkR7jc3VjuMndbbQVmjNhCZ1
+        u9atnVxw6C/IBivplwJx1mjCPiS9MNoUGNRsVHCdRwvXACtBQud/5px0MpxT1guzO9dpZyN9jc4GPOZK
+        OeVlGudn0gtLVKcld20TqWFGupG93Pm/nykpxcxlrnPa44qbPZtVGbeNYcmZV0n/A3MTANp434bBAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="exportCaseMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqlJREFUOE91k9tO
+        GlEUhu1de9EXaPoMvkWbqjdN47VJ38BrE4wp9RjbNGlNtdW2iQ3R1gJSBFQQRM4iZwaYUQQGOcwoaKBI
+        Bfy7BpOmKt3Jmuy9s/9v/WvN3ne6aMzPq+8HAjWmu/vBw2bjsqvVgrR9a7R36cPzpebde9WncvnztfYh
+        u53tn5424CBdhtbEQWlgodnch86chGH7EBs7Kayuc9DTOnFQgjeUx8jI6snfDBYL82xoSAmbJ4OPCyY8
+        ejyE3t5h9FH09sjQ80QGs4OHmiC+cJ7OHUE6/w8g0QZYHCmo1yJ4886It7NbmJnbwvsPFswtbGNZE8KK
+        NgaGPYbTm+sMMBNAqYvj01IQiysRKNQMvmni0BqTmFt0QEtlMewJPIHC/x2sbrAkDkOhiuL7zxhUOhZr
+        RhYLCg82rak2wB8WbgKuemB2pCkLhyV1DFZ3BsadfVidUgMZgoWoRB4JroRQvNQZ4NrLQWc6gImEM1/s
+        lNWNrz/8UOmjMJg5ePwFhBgB4dhJZ4DVmYHVlcbsohMKpR+RuIjD1Cls5GbHxbftB6NFcKlqZ4BtNwu1
+        gWmLpSyFYgO5wgWO8r8RCBeR2D9DMl1BKvOrM8BBv0dHF0m7GYfHV4AvJFLDROwFRSRTFWRzdRJXkSXg
+        jXtw1UQ3iWyeLLadabi8RzDbM9iiiLFliGIDgtAgSA2C2OwM8AaL2A0I2KNgEiUcpqvIUwnl8iXOzlrI
+        8OckltbA8LDq4tZVdvtyZFdAIFKirKdI8zXqwwVFHZnsOYo0D8eOUT5tXXdgtbL9k5N6RMkqm6yAS1ap
+        1hqJ6u0misdNlMhFpQIUhDrqdVx/TNJzHhiY58fGDHgh10H+Uo/RUT2k9fj4OiYmDJiYWsfU1AZevzJi
+        cHC5IZN97pNK+AOwI7cDDy8s+QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="exportCaseTreeMenuItem.Text" xml:space="preserve">
+    <value>Export Case</value>
+  </data>
+  <data name="splitUD.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Panel1.Parent" xml:space="preserve">
+    <value>splitLR</value>
+  </data>
+  <data name="noteToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Note</value>
+  </data>
+  <data name="&gt;&gt;editNoteListMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainText.Name" xml:space="preserve">
+    <value>mainText</value>
+  </data>
+  <data name="exportCaseToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqhJREFUOE91k9tO
+        GlEUhu0D9LK9aPoUvkObqjdN47VJ41uYYEypx9imSWuqrdYmNsS2FpAijAqCyFnkzACDIgzIYUZBA0Uq
+        4N81mDRV6U7WZO+d/X/rX2v2vtNFY35efdfjqbHd3Q8eNhuXXa0WpO1bo71LH5blm/fudz2Vy5+vtQ/Z
+        bFz/9DSDg3QZWmMCSoaDZnMfOlMSzPYhNnZSWF1PQE/r+EEJnmAeIyOrJ38zmM3ss6EhJaxuHh8XjHj0
+        eAi9vcPoo+jtkaHniQwmewZqgnhDeTp3BOn8P4B4G2C2p6BeC+PNOwPezm5hZm4L7z+YMbewja+aIFa0
+        UbDcMRyeXGeAiQBKXQyflgNYWglDoWbxTROD1pDE3JIdWiqL5U7g9hf+72B1gyNxCApVBN9/RqHScVgz
+        cFhQuLFpSbUBvpBwE3DVA5M9TVkSWFZHYXHxMOzsw+KQGsgSLEglZhBPlBCMlToDnHs56IwHMJJw5rON
+        srrw5YcPKn0EjCkBt6+AICsgFD3pDLA4eFicacwuOaBQ+hCOiThMncJKbnacmbb9QKSIRKraGWDdzULN
+        sG2xlKVQbCBXuMBR/jf8oSLi+2dIpitI8b86A+z0e3R0kbSbMbi9BXiDIjVMxF5ARDJVQTZXJ3EVWQLe
+        uAdXTXSRyOrOYtuRhtNzBJONxxZFlCtDFBsQhAZBahDEZmeAJ1DErl/AHgUbL+EwXUWeSiiXL3F21gKf
+        OSextAaGh1UXt66yy5sjuwL84RJlPUU6U6M+XFDUwWfPUaR5KHqM8mnrugOLheufnNQjQla5ZAWJZJVq
+        rZGo3m6ieNxEiVxUKkBBqKNex/XHJD3ngYH5zNgYgxdyHeQv9Rgd1UNaj4+vY2KCwcTUOqamNvD6lQGD
+        g4sNmWyxTyrhD9igtd9XUUuGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>792, 453</value>
+  </data>
+  <data name="newNoteToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAhFJREFUOE91kt9r
+        01AcxbMX/wzffPNpb+I/4x8h+iIU9uSLE19kDBmCiFiYYjdBBLUKOlg719mlv27X0fXnuqY/krRJmvQe
+        zw3+aJfswje3NDmfc85NVjSuQstePSy3sjdvXF/RAE1KqWHOXQN3qdnuXNv/Wcncv3PrNh/3lWZppY+N
+        kufPEV0S5sxHY+Kiabh4sJnRKbwWAXz5ZWDiBkt6hZMcJ5ijO51hrzjAXh+4u/49ClGA6RWAQDKFF0A9
+        Y0596AOJe2s7ejKZ/J8kBDj+UgLlrlIE/OHyks4bISStc8+f48nWQelflbAC6YtLUu1T7PFvdcv0JDqT
+        ALXxDNmmhcTjDJYBzizUh868qDNVrWyKqcHIA/qORMue47g9jQJsHhTrhpF58FA8iyLTBYYOcDEFepzO
+        BKh03SjAmnihq0NXFdkiYEjAgIALAjoUtylu2IDejgGMbS8UR1wpalPUsoAzEzjl5BoxgAGzXuV6RkCd
+        gBrFYgxk6zGA/tjFUMVVXS+51ig6GbE7pzgEfpzGAHojN+x6/qfromuFgDLFBQPg54BvIgbQJUCd8N+u
+        i64FuuoD4IjiHOdT+RLg80Gn1LN8tJmgyQR1gk7Yu8reJboX6Z4nJEfIIedjxV9+jV8zYjXxMCVff6ji
+        1XuBl7sCL3YEnqcEtt4JPHsrsPlGYGNb4Ol2FYlESj7a2D9SX+JvUEkPz5p5P9gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;chUpdated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuTree.Name" xml:space="preserve">
+    <value>menuTree</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>StuffCraft</value>
+  </data>
+  <data name="editNoteMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="mainList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;caseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportCaseMainMenuItem.Name" xml:space="preserve">
+    <value>exportCaseMainMenuItem</value>
+  </data>
+  <data name="newNoteToolStripButton.Text" xml:space="preserve">
+    <value>New Note</value>
+  </data>
+  <data name="&gt;&gt;renameCaseToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitUD.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exportNoteToolStripButton.Text" xml:space="preserve">
+    <value>Export Note</value>
+  </data>
+  <data name="splitUD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;splitLR.Panel1.Name" xml:space="preserve">
+    <value>splitLR.Panel1</value>
+  </data>
+  <data name="renameCaseTreeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="chWordCount.Text" xml:space="preserve">
+    <value>WordCount</value>
+  </data>
+  <data name="&gt;&gt;mainToolbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="newCaseToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAT9JREFUOE9jYBg0
+        4MxMk/+nZxj/PznN8P/xKfr/SXIYSDM6ONSvRZwhCM0zgWYg4///93ap/t/VrvR/e4v8/61Nsv83N0r/
+        31AngWowyNn/v0/8//9LHybGcNf//+tqxFANAPn5/+vW//+fNf4/OkkXKz7Qq/F/T6fK/x2tCv+3NMqA
+        XQLC4HACBdj/B9VgjUQBoEUgsLiQG2IAWOOV/P+QsEAPB0z+j6MJYHUL8jggBoBC+/+ZdHAUgg0AhQce
+        /H5POFjdvBw2iAEg/4EMgHgBaAAoPPDgZ5v9wOrmZLFADABFFciA/T3qEAOA4YEP31npAlY3K4MJYgAo
+        nkEGgEIYbAAwPPDhywuswepmpjMiohOWSMg2AOQSWCoDJZTVlcL/V5QJ/F9azAuOLlCIgwIN5G+Q00G2
+        g8KMpPyCSzEAl88FiK3YiSsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="mainList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 20</value>
+  </data>
+  <data name="newNoteMainMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAg9JREFUOE91kt9r
+        01AcxTMEH3zzX9nTwH/GP0L0Sfbgswx9EC0yhCFiYcp0ggjqHOjApa6zpu16u46uP9e1aZsfTdKk93hu
+        8EezdBe+uaXJ+ZxzbrKkcRVbznLP0fTr164saYAmpdQw466Bu9Qcf6Z9/yH279xcucHHQ6VJrF1jUA7C
+        GdJLwpqGaLg+mgMfdzM5g8KrKcDnnwO4fpTQK5zkeNEM3ckUeyUTe33g1trXNEQBJpcAIskUQQT1jDUJ
+        YZgSt+9tG9ls9n+SGOCFiQTKXaWI+MPnZacwiCE7BvfCGR6sH5T/VYkrkD6/JNUhxQH/VresQKLjRqiN
+        p9CbNlbX9pEEeNNYHzvzos5UtXIopgajAOh7Ei1nhl/tSRrg8KBYN47Mg4fi2RRZPjD0gPMJ0ON0XKDS
+        9dMA2w1iV4+uKrJNwJAAk4BzAjoUtyluOIDRXgAYO0EsTrlS1KaoZQOnFnDCyTcWAExmvcz1lIA6ATWK
+        xRjQ6wsA/bGPoYqrul5wrVF0PGJ3TmkIfDtZAOiN/Ljr2Z+u864VAo4oLg4Afg7YFQsAXQLUCf/tOu9a
+        pKthAocU5zkfjy4APuU65Z4dos0ETSaoE3TM3lX2LtO9RPcCIXlCDjgfKmHyNX7RxXJmIydfvq/ixTuB
+        59sCG28Fnr0RWN8SePpaIPNK4PGmwKPNKlYf5uT9J/qh+hJ/A4VTD122PEA5AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="renameCaseMainMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="mainText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="&gt;&gt;exportNoteMainMenuItem.Name" xml:space="preserve">
+    <value>exportNoteMainMenuItem</value>
+  </data>
+  <data name="newNoteMainMenuItem.Text" xml:space="preserve">
+    <value>N&amp;ew Note</value>
+  </data>
+  <metadata name="sfd.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>549, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>60</value>
+  </metadata>
+  <metadata name="imageList16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>436, 17</value>
+  </metadata>
+  <metadata name="menuTree.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>234, 17</value>
+  </metadata>
+  <metadata name="menuList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>337, 17</value>
+  </metadata>
+  <metadata name="mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>131, 17</value>
+  </metadata>
+  <metadata name="mainStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 431</value>
+  </metadata>
+  <metadata name="mainToolbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 24</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

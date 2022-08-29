@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StuffCraft", "StuffCraft.csproj", "{C4E7510A-82C0-4DA4-865F-A6B6CB92DA81}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = StuffCraft.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E7510A-82C0-4DA4-865F-A6B6CB92DA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E7510A-82C0-4DA4-865F-A6B6CB92DA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E7510A-82C0-4DA4-865F-A6B6CB92DA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E7510A-82C0-4DA4-865F-A6B6CB92DA81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
